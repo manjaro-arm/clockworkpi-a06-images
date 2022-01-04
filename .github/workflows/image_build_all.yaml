@@ -34,7 +34,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        DEVICE: [clockworkpi-a60]
+        DEVICE: [clockworkpi-a06]
         EDITION: [minimal,xfce]
         BRANCH: [stable]
     steps:

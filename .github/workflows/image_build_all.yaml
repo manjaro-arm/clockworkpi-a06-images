@@ -34,8 +34,8 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        DEVICE: [pbpro]
-        EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        DEVICE: [clockworkpi-a60]
+        EDITION: [minimal,xfce]
         BRANCH: [stable]
     steps:
       - 
